@@ -1,0 +1,83 @@
+body {
+    background: #D3FFF3;
+}
+
+.contentPage {
+    padding: 2em 0px;
+}
+
+.fade-in-out {
+    transition: opacity 0.5s ease;
+}
+
+.fade-in-out.fade-out {
+    opacity: 0;
+}
+
+.tipCalcInputBorders {
+    border-radius: 30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    padding: 4em;
+    background: #F8FFFF;
+    margin: 0;
+}
+
+.coinImg {
+    height: 250px;
+    margin: 2em 0px;
+}
+
+.finalResultsPanel {
+    color: #fff;
+    background: #137547;
+    border-radius: 30px;
+    padding: 2em;
+}
+
+.input-group-text {
+    color: #fff;
+    background: #137547;
+}
+
+@media only screen and (max-width: 767px) {
+    .finalResultsPanel {
+        margin-top: 2em;
+    }
+}
+
+.dm-serif-display-regular {
+    font-family: "DM Serif Display", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.dm-serif-display-regular-italic {
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.dm-sans-regular {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.dm-sans-semiBold {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.dm-sans-extraBold {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.heading-xl {
+    font-size: 3.5em;
+}
