@@ -6,21 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tip Calculator</title>
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="CSS/tipCalculator.css">
 </head>
 
 <body>
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-light navbar-expand-lg" id="mainNavbar" data-aos="fade-down">
+            <div class="container navContainer">
+                <div class="d-flex flex-nowrap w-100">
+                    <a href="https://www.paulcasselldesign.com/" class="navbar-brand mr-auto">
+                        <img src="Images/logo.png" id="cassellLogo">
+                    </a>
+                    <div class="navbar-toggler ml-auto menu-btn" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+                        <div class="menu-btn__burger"></div>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navLinks">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item text-center navPortfolioLinks m-0">
+                            <a href="professional portfolio.html" class="nav-link ">Professional Work</a>
+                        </li>
+                        <li class="nav-item text-center navPortfolioLinks m-0">
+                            <a href="personal portfolio.html" class="nav-link">Personal Projects</a>
+                        </li>
+                        <li class="nav-item text-center navOtherLinks m-0">
+                            <a href="Paul Cassell Resume.docx" class="nav-link">Resume</a>
+                        </li>
+                        <li class="nav-item text-center navOtherLinks m-0">
+                            <a href="about_me.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item text-center navOtherLinks m-0">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
     <div class="container contentPage">
         <div class="row">
             <div class="col-sm-12">
-                <a href="https://www.paulcasselldesign.com/personal%20portfolio.html" target="_blank">
-                    <img class="img-fluid mx-auto d-block coinImg" src="Images/logoCoin-13.png" alt="Logo On Coin Illustration">
-                </a>
+                <img class="img-fluid mx-auto d-block coinImg" src="Images/logoCoin-13.png" alt="Logo On Coin Illustration">
                 <h1 class="mb-4 text-center heading-xl dm-serif-display-regular">Tip Calculator</h1>
             </div>
         </div>
